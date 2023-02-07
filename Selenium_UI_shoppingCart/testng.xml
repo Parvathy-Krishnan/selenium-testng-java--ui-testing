@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite-1" >
+
+<test name="searchProduct" />
+
+<test name="verifyProduct" >
+
+
+<classes>
+
+<class name="homePage" />
+
+
+</classes> 
+
+</test>
+
+</suite>

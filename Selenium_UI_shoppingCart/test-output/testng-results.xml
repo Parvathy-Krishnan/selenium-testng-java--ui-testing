@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T11:25:13 IST" name="Default suite" finished-at="2023-02-07T11:25:20 IST" duration-ms="7387">
+    <groups>
+    </groups>
+    <test started-at="2023-02-07T11:25:13 IST" name="Default test" finished-at="2023-02-07T11:25:20 IST" duration-ms="7387">
+      <class name="homePage">
+        <test-method is-config="true" signature="loadUrl()[pri:0, instance:homePage@1b005a0b]" started-at="2023-02-07T11:25:13 IST" name="loadUrl" finished-at="2023-02-07T11:25:17 IST" duration-ms="3915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadUrl -->
+        <test-method signature="switchMultipleLinkInNewTab()[pri:0, instance:homePage@1b005a0b]" started-at="2023-02-07T11:25:17 IST" name="switchMultipleLinkInNewTab" finished-at="2023-02-07T11:25:20 IST" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchMultipleLinkInNewTab -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:homePage@1b005a0b]" started-at="2023-02-07T11:25:20 IST" name="closeWindow" finished-at="2023-02-07T11:25:20 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- homePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

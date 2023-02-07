@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite-1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="verifyProduct(failed)">
+    <classes>
+      <class name="homePage">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="applyPromoCode"/>
+          <include name="loadUrl"/>
+          <include name="verifyPromoCode"/>
+          <include name="placeOrder"/>
+          <include name="searchProduct"/>
+          <include name="switchMultipleLinkInNewTab"/>
+          <include name="checkout"/>
+          <include name="verifyProduct"/>
+        </methods>
+      </class> <!-- homePage -->
+    </classes>
+  </test> <!-- verifyProduct(failed) -->
+</suite> <!-- Failed suite [Test Suite-1] -->
